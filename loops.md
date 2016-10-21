@@ -4,7 +4,7 @@
 
 ## while
 
-```
+```c
 while (condition)
 {
     // statements
@@ -16,7 +16,7 @@ while (condition)
 * หากเงื่อนไขเป็นเท็จ โค้ดจะข้ามไปหลังปีกกาทันที
 
 ตัวอย่าง
-```
+```c
 // ปรินท์แม่สูตรคูณแม่ 2
 int i = 1;
 while (i <= 12)
@@ -28,7 +28,7 @@ while (i <= 12)
 
 ## do-while
 
-```
+```c
 do
 {
     // statements
@@ -41,7 +41,7 @@ while (condition);
 * วิธีนี้ โค้ดใน loop จะทำงานอย่างน้อย 1 ครั้ง
 
 ตัวอย่าง
-```
+```c
 // loop ไปเรื่อยๆจนกว่าผู้ใช้จะใส่เลขระหว่าง 1 ถึง 10
 int num;
 do
@@ -54,7 +54,7 @@ while (num < 1 || num > 10);
 
 ## for
 
-```
+```c
 for (init; condition; end)
 {
     // statements
@@ -66,7 +66,7 @@ for (init; condition; end)
 * ถ้าเงื่อนไขเป็นเท็จ จะข้ามไปหลังปีกกาทันที
 * เราสามารถแปลง `for` loop ให้เป็น `while` loop ได้แบบนี้
 
-```
+```c
 // init
 while (condition)
 {
@@ -76,7 +76,7 @@ while (condition)
 ```
 
 ตัวอย่าง
-```
+```c
 // ปรินท์แม่สูตรคูณแม่ 2
 for (int i = 1; i <= 12; i++)
     printf("2 * %d = %d\n", i, 2 * i);

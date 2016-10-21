@@ -15,7 +15,7 @@
   - `%s` ใช้กับ string (`char []`)
 
 ตัวอย่าง
-```
+```c
 int a = 5;
 int b = 10;
 printf("a is %d.\n", a);
@@ -34,7 +34,7 @@ printf("a + b is %d.\n", a + b);
  
 
 ตัวอย่าง
-```
+```c
 int a;
 scanf("%d", &a);
 char b;
@@ -60,7 +60,7 @@ printf("%s picked character %c and number %d.", name, b, a);
 * สามารถใช้ `endl` แทน `\n` ได้
 
 ตัวอย่าง
-```
+```c
 int n = 5;
 cout << "n is " << n << "." << endl;
 ```
@@ -71,7 +71,7 @@ cout << "n is " << n << "." << endl;
 * ใช้กับตัวแปรพื้นฐานใดๆก็ได้ เช่น string, int, float โดยไม่ต้องระบุชนิด
 
 ตัวอย่าง
-```
+```c
 char name[51]; // ใช้ได้มากสุด 50 ตัว (ตัวสุดท้ายเป็น \n)
 int n;
 cin >> name >> n;
